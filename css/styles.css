@@ -1,0 +1,148 @@
+
+
+.hit {
+  float:left;
+  display: inline-block;
+    cursor: pointer;
+    color: white;
+    padding:40px
+}
+
+.bar1, .bar2, .bar3 {
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+#dope{
+  padding-right: 100px;
+}
+#dd {
+  padding-left: 30px;
+}
+#doop {
+  text-align:center;
+  font-family: inherit;
+  padding:25px;
+  padding-left:70px;
+  background-color:#F15A29;
+  padding-right: 80px;
+  margin:0px;
+
+  margin-right:0px;
+}
+#drip {
+  text-align:center;
+  font-family: inherit;
+  background-color: grey;
+padding:25px;
+  padding-left: 70px;
+  padding-right: 80px;
+  margin:0px;
+
+  margin-right: 0px;
+
+}
+#woo {
+  background-image: url("file:///home/ben/Documents/javascript/project/foodtop/breakfast.jpg");
+  background-repeat: no-repeat;
+  background-size:auto;
+  padding:50px;
+  color: white;
+  margin-left: 0px;
+
+  margin: 0px;
+
+}
+#weeh {
+    background-image: url("file:///home/ben/Documents/javascript/project/foodtop/lunch.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    padding: 50px;
+
+    color: white;
+
+}
+#great {
+  background-image: url("file:///home/ben/Documents/javascript/project/foodtop/dinner.jpg");
+  background-repeat: no-repeat;
+  background-size:auto;
+  padding: 50px;
+  color: white;
+}
+ #thumbnails {
+   width:30%;
+   margin-top: 50px;
+   margin-left: 90px;
+   padding: 10px;
+   border-style: hidden;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
+float: left;
+ }
+ #brr {
+   float: left;
+   font-family: inherit;
+   padding:10px;
+
+margin-top: 50px;
+margin-left: 50px;
+padding-bottom: 90px;
+ }
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 30px;
+
+}
+.column2 {
+  float:left;
+  width: 33.33%;
+  padding-right: 0px;
+}
+#thumbnailss {
+  width:30%;
+  margin-top: 50px;
+  margin-left: 90px;
+  padding: 10px;
+  border-style: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
+float: left;
+}
+.follow {
+  background-image: url("file:///home/ben/Documents/javascript/project/backgrounds/foodsBg.jpg");
+background-repeat: no-repeat;
+background-size: auto;
+}
+#real {
+  background-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom:50px;
+
+}

@@ -1121,7 +1121,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 25%;
   height: auto;
 }
 .img-rounded {
@@ -1582,7 +1582,6 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -1935,6 +1934,7 @@ pre code {
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+    margin:0px;
   }
   .col-md-12 {
     width: 100%;
@@ -4958,9 +4958,11 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  background-image:url("file:///home/ben/Documents/javascript/project/backgrounds/landing.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: impact;
+  margin-right: 0px;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4968,8 +4970,10 @@ a.badge:focus {
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size:40px;
   font-weight: 200;
+  color: white;
+
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -6575,7 +6579,8 @@ button.close {
     display: table !important;
   }
   tr.visible-xs {
-    display: table-row !important;
+    display: table-
+   !important;
   }
   th.visible-xs,
   td.visible-xs {
