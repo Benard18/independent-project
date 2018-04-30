@@ -286,3 +286,25 @@ float: left;
 #BB {
   margin-right:10px;
 }
+.customers {
+background-color: rgb(255, 255, 255);
+}
+#outer {
+padding: 70px;
+}
+
+#info {
+text-align: center;
+display: none;
+color: rgb(255, 255, 255);
+}
+#cus {
+  text-align: center;
+}
+.act {
+color:#F15A29;
+
+}
+#qwerty {
+  color: white;
+}
