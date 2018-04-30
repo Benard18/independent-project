@@ -274,6 +274,8 @@ th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  background-image:url("file:///home/ben/Documents/javascript/project/backgrounds/foodsBg.jpg");
+  text-align: center;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2548,14 +2550,14 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
+  width: 40%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
   background-color: #fff;
-  background-image: none;
+  background: none;
   border: 1px solid #ccc;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -3975,6 +3977,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-align: cent;
 }
 .nav > li {
   position: relative;
@@ -4017,9 +4020,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs {
   border-bottom: 1px solid #ddd;
+  color: grey;
+  text-align: center;
 }
 .nav-tabs > li {
-  float: left;
   margin-bottom: -1px;
 }
 .nav-tabs > li > a {
@@ -4041,8 +4045,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-color: transparent;
 }
 .nav-tabs.nav-justified {
-  width: 100%;
-  border-bottom: 0;
+  width: 45%;
+  border-bottom: 10px;
+  text-align: center;
 }
 .nav-tabs.nav-justified > li {
   float: none;
@@ -4053,7 +4058,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs.nav-justified > .dropdown .dropdown-menu {
   top: auto;
-  left: auto;
+
 }
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li {
