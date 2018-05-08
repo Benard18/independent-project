@@ -1,5 +1,7 @@
-$(document).ready(function() {
-  $("overlay").click.myfunction(){
-    $("toggle-btn").slidetoggle();
-});
+
+$(document).ready( function (){
+
+  $("#weddy").click( function(){
+    $("#wassy").toggle(1000);
+  });
 });
