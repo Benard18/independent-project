@@ -4963,8 +4963,6 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image:url("file:///home/ben/Documents/javascript/project/backgrounds/landing.jpg");
-  background-repeat: no-repeat;
   text-align: center;
   font-family: impact;
   margin-right: 0px;
